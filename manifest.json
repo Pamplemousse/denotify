@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Denotify",
+  "version": "1.0",
+
+  "description": "Remove visual notifications from websites you visit.",
+
+  "icons": {
+    "48": "icons/sh.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["denotify.js"]
+    }
+  ]
+}
