@@ -13,9 +13,8 @@
     {
       "run_at": "document_start",
       "matches": ["<all_urls>"],
-      "js": [
-        "denotification_functions.js",
-        "denotify.js"
+      "css": [
+        "denotify.css"
       ]
     }
   ]

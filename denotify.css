@@ -1,0 +1,4 @@
+/* Hide LinkedIn notifications */
+ul span.nav-item__badge {
+  display: none;
+}
