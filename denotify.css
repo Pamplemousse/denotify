@@ -1,3 +1,8 @@
+/* Hide GitHub notifications */
+a.notification-indicator span.mail-status.unread {
+  display: none;
+}
+
 /* Hide LinkedIn notifications */
 ul span.nav-item__badge {
   display: none;
