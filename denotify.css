@@ -7,3 +7,8 @@ a.notification-indicator span.mail-status.unread {
 ul span.nav-item__badge {
   display: none;
 }
+
+/* Hide Twitter notifications */
+div[aria-label$="unread items"] {
+  display: none;
+}
